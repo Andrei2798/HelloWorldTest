@@ -1,5 +1,5 @@
 function show() {
   alert("Hello!");
-  document.getElementById("#message").style.color = "red";
-  document.getElementById("#message").innerHTML = "Hello!";
+  document.querySelector("#message").style.color = "red";
+  document.querySelector("#message").innerHTML = "Hello!";
 }
